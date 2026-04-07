@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Website</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+        }
+        .food{
+            border: 2px solid blue;
+            border-radius: 10px;
+            padding: 20px;
+        }
+        .food img{
+            width: 100%;
+        }
+        .food button{
+            color: brown;
+            background-color: rgb(184, 195, 194);
+            border: none;
+            width: 80px;
+            height: 30px;
+        }
+
+        /* responsive design */
+        /* smaller Device */
+        @media screen and (max-width: 576px) {
+            .container{
+                grid-template-columns: repeat(1, 1fr);
+            }
+            .food{
+                background-color: gray;
+                color: white;
+            }
+        }
+
+        /* Medium Device */
+        @media screen and (min-width: 577px) and (max-width : 992px) {
+            .container{
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .food{
+                background-color: rgb(228, 146, 146);
+                color: black;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- .container>.food*12>img[src="images/indian-food.jpg"]+h3{Food Item - $}+p{Price: \$$00}+p>lorem20 -->
+
+     <div class="container">
+        <div class="food">
+            <img src="images/indian-food.jpg" alt="">
+            <h3>Food Item - 1</h3>
+            <p>Price: $100</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente sit adipisci eos obcaecati quibusdam voluptates dolorem doloremque dolorum culpa impedit?</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="images/indian-food.jpg" alt="">
+            <h3>Food Item - 2</h3>
+            <p>Price: $200</p>
+            <p>Reprehenderit cupiditate suscipit blanditiis ex aliquid voluptatum quas distinctio in officiis ratione? Nulla nihil doloremque ducimus, voluptatem dolores maxime facere.</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="images/indian-food.jpg" alt="">
+            <h3>Food Item - 3</h3>
+            <p>Price: $300</p>
+            <p>Dolor iure cupiditate fugiat doloremque aut possimus pariatur, voluptatibus laborum repudiandae, voluptate animi provident tenetur cumque nostrum sit aliquam id.</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="images/indian-food.jpg" alt="">
+            <h3>Food Item - 4</h3>
+            <p>Price: $400</p>
+            <p>Alias voluptatum dolor doloremque ea. Inventore, eum quae? Dicta provident eaque saepe voluptatibus unde? Eligendi ducimus accusamus quo excepturi voluptatem.</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="images/indian-food.jpg" alt="">
+            <h3>Food Item - 5</h3>
+            <p>Price: $500</p>
+            <p>Quas repudiandae itaque, nobis error non, accusamus suscipit minus dolorem, porro quam amet harum! Sint in blanditiis corporis ab laborum.</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="images/indian-food.jpg" alt="">
+            <h3>Food Item - 6</h3>
+            <p>Price: $600</p>
+            <p>Quo, obcaecati quos. Enim doloremque, architecto nihil commodi quos eius facilis rerum modi ratione quas eligendi. Pariatur laboriosam explicabo illum?</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="images/indian-food.jpg" alt="">
+            <h3>Food Item - 7</h3>
+            <p>Price: $700</p>
+            <p>Reiciendis, recusandae consequatur aliquam enim natus voluptate qui vero labore ipsam sequi culpa quasi praesentium est ab incidunt sapiente assumenda.</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="images/indian-food.jpg" alt="">
+            <h3>Food Item - 8</h3>
+            <p>Price: $800</p>
+            <p>Sit excepturi assumenda accusantium obcaecati, fuga maxime nisi quis aspernatur nihil quaerat deserunt harum possimus! Debitis adipisci dicta beatae corrupti.</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="images/indian-food.jpg" alt="">
+            <h3>Food Item - 9</h3>
+            <p>Price: $900</p>
+            <p>Commodi dignissimos, consequuntur ipsa quisquam et dolore voluptates, totam, quis voluptas alias libero repellendus nostrum ad? Debitis id ratione voluptatum.</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="images/indian-food.jpg" alt="">
+            <h3>Food Item - 10</h3>
+            <p>Price: $1000</p>
+            <p>Dolorem, debitis sed. Cupiditate omnis adipisci quas eius magni odit cum saepe suscipit blanditiis repellat. Deleniti numquam incidunt consequuntur ut!</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="images/indian-food.jpg" alt="">
+            <h3>Food Item - 11</h3>
+            <p>Price: $1100</p>
+            <p>Similique optio accusamus temporibus eligendi neque aliquam a illum excepturi inventore fugit repellat facilis dolore, voluptates quia cupiditate est tempore!</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="images/indian-food.jpg" alt="">
+            <h3>Food Item - 12</h3>
+            <p>Price: $1200</p>
+            <p>Saepe tempora impedit est, magni modi adipisci aliquid, expedita placeat quo minima ipsum, voluptates sint nisi dolor atque harum accusantium.</p>
+            <button>Buy Now</button>
+        </div>
+     </div>
+</body>
+
+</html>
